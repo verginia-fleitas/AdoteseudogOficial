@@ -1,0 +1,76 @@
+*{padding: 0%;
+margin: 0%;}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+#div1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #801D4D;
+    
+}
+#umalogomuitolouca{
+    height: 90px;
+}
+button{
+    background-color:#801D4D;
+    width: 200px;
+    height: 50px;
+    color:white;
+    transition-duration: 0.5s;
+    border-radius: 15%;
+    
+    }
+button:hover{
+    background-color:#EA519A;
+}
+#botao{
+    width: 50%;
+    justify-content: space-around;
+    display:flex;
+        align-items: center;
+}
+
+#vouapagardepois{
+width: 30%;
+display: flex;
+justify-content: flex-end;
+
+}
+
+#div2{
+    display: flex;
+    justify-content: center;
+    width: auto;
+height: auto;
+flex-wrap: wrap;
+background-color:#F9AFB5 ;
+}
+.dogfoto{
+    width: 250px;
+    height: 250px;
+}
+.dog{
+    width: 200px;
+    height: 200px;
+        padding: 100px;
+    
+    justify-content: center;
+}
+footer{
+    background-color:#801D4D ;
+    color:white;
+    justify-content: center;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width: 700px){
+    
+     footer{display: none;}
+     #div1{display: none;}
+    }
